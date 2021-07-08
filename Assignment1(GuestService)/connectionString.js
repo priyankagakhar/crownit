@@ -1,10 +1,10 @@
 var mysql = require("mysql");
 
 var connectionData = {
-  host: "localhost",
-  user: "priyanka",
-  password: "Priyanka@310195",
-  database: "GuestsDB",
+  host: "localhost", //host name
+  user: "root", // Sql user name
+  password: "", // sql user password
+  database: "GuestsDB", // dasbase name
 };
 
 function getConnection() {
